@@ -21,7 +21,7 @@ const App: React.FC<AppProps> = ({ username, isAdmin }) => {
     console.log("from url",username,roomId);
     if (username && roomId) {
       
-      const ws = new WebSocket(`ws://localhost:3000/${roomId}`);
+      const ws = new WebSocket(`wss://chat-app-backend-cx4t.onrender.com/${roomId}`);
       ws.onopen = () => {
         console.log("Connected to WebSocket server");
         ws.send(JSON.stringify({ type: 'join', username, role: isAdmin ? 'admin' : 'user' }));
