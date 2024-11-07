@@ -1,6 +1,5 @@
 import './App.css';
 import { useEffect, useState } from 'react';
-import JoinForm from './Pages/JoinForm';
 import { Input } from './components/ui/input';
 import { Button } from './components/ui/button';
 import { useParams } from 'react-router-dom';

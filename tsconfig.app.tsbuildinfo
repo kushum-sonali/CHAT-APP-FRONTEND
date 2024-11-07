@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/pages/joinform.tsx","./src/pages/joinurl.tsx","./src/pages/roomdetailes.tsx","./src/pages/routerwrapper.tsx","./src/components/ui/button.tsx","./src/components/ui/input.tsx","./src/components/ui/label.tsx","./src/lib/utils.ts"],"version":"5.6.3"}

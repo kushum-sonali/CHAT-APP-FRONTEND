@@ -15,6 +15,7 @@ const RouterWrapper: React.FC = () => {
   const handleUserJoin = (name: string, id: string) => {
     setUsername(name);
     setRoomId(id);
+    setIsAdmin(true);
   };
 
   // Handle invited users joining the room
